@@ -1,0 +1,97 @@
+@import url(./font/AirbnbCereal_W_Bd.otf);
+@import url(./font/AirbnbCereal_W_Bk.otf);
+@import url(./font/AirbnbCereal_W_Blk.otf);
+@import url(./font/AirbnbCereal_W_Lt.otf);
+@import url(./font/AirbnbCereal_W_Md.otf);
+@import url(./font/AirbnbCereal_W_XBd.otf);
+
+body {
+    font-family: 'AirbnbCereal_W_XBd', sans-serif !important;
+
+}
+
+
+:root {
+    --fond: #FFFFFF;
+    --paragraph: #1b1425;
+    --button: #CD5C5C;
+    --lien: 40px;
+}
+
+textarea {
+    resize: none !important;
+}
+
+.recherche {
+
+    padding: 0;
+
+}
+
+.contenaire_recherche {
+    margin-top: 10vh;
+    font-size: var(--lien);
+
+}
+
+.couleur_bouton:hover {
+    background-color: var(--button);
+}
+
+.couleur_bouton {
+    border: solid 2px var(--button);
+
+}
+
+.active:hover {
+    color: var(--fond) !important;
+}
+
+.active {
+    background-color: var(--button) !important;
+    color: var(--fond) !important;
+    transition: all ease-in-out 0.3s;
+}
+
+.couleur_texte_only:hover {
+    color: var(--button) !important;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+header{
+    padding: 0!important;
+}
+
+
+.formulaire{
+    width: 50vh;
+    margin-top: 10vh;
+    border-radius: 2vh;
+    padding: 2vh;
+
+
+    
+}
+.formulaire_conexion{
+    border: none;
+    border-bottom: solid black ;
+    border-radius: 0vh;
+}
+
+.offre_liste{
+    padding: 10px;
+    border-right:solid black 2px;
+    border-bottom: solid black 2px;
+
+
+}
+.offre_liste_gauche{
+  
+    padding: 10px;
+    
+}
+
